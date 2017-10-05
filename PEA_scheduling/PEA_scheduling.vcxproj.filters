@@ -30,7 +30,7 @@
     <ClInclude Include="Scheduler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TaskView.h">
+    <ClInclude Include="fileReader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -47,7 +47,7 @@
     <ClCompile Include="Scheduler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TaskView.cpp">
+    <ClCompile Include="fileReader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

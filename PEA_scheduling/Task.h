@@ -10,9 +10,7 @@ public:
     {};
 
     ~Task();
-
-
-private:
+    
     int timeRequired;
     int weight;
     int deadline;
