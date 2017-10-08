@@ -4,11 +4,11 @@
 #include <vector>
 #include "Task.h"
 
-class fileReader
+class FileReader
 {
 public:
-    fileReader();
-    ~fileReader();
+    FileReader();
+    ~FileReader();
     /*
         format: row of times
                 row of weights

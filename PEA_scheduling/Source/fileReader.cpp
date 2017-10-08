@@ -3,12 +3,12 @@
 #include <fstream>
 #include <iostream>
 
-fileReader::fileReader()
+FileReader::FileReader()
 {
 }
 
 
-fileReader::~fileReader()
+FileReader::~FileReader()
 {
 }
 
@@ -17,8 +17,9 @@ namespace
     int getInstanceSize(std::fstream &file)
     {
         std::string line;
+        std::getline(file, line);
         int currentRow = 0;
-        file >> line;
+        std::cout << line;
         file.clear();
         file.seekg(0);
         return std::count(line.begin(), line.end(), ' ') + 1;
@@ -45,7 +46,7 @@ namespace
 
 }
 
-bool fileReader::readWT(std::string path, int setNum, std::vector<Task>& output)
+bool FileReader::readWT(std::string path, int setNum, std::vector<Task>& output)
 {
     std::fstream file(path, std::fstream::in);
 
@@ -55,7 +56,7 @@ bool fileReader::readWT(std::string path, int setNum, std::vector<Task>& output)
         return false;
     }
 
-    const int setSize = getInstanceSize(file);
+    const int setSize = 40; // getInstanceSize(file);   //current issue: this shitty file has mutiple spaces between fucking numbers
     int currentSet = 1;
 
     output.resize(setSize);
