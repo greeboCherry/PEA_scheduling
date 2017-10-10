@@ -2,6 +2,7 @@
 
 #include <fstream>
 #include <iostream>
+#include <regex>
 
 FileReader::FileReader()
 {
@@ -18,10 +19,15 @@ namespace
     {
         std::string line;
         std::getline(file, line);
-        int currentRow = 0;
         std::cout << line;
         file.clear();
         file.seekg(0);
+        const std::regex expression("[^\\s]+", std::regex_constants::ECMAScript | std::regex_constants::icase);
+        
+        return std::distance(
+            std::sregex_iterator(line.begin(), line.end(), expression),
+            std::sregex_iterator());
+
         return std::count(line.begin(), line.end(), ' ') + 1;
     }
 
@@ -56,7 +62,7 @@ bool FileReader::readWT(std::string path, int setNum, std::vector<Task>& output)
         return false;
     }
 
-    const int setSize = 40; // getInstanceSize(file);   //current issue: this shitty file has mutiple spaces between fucking numbers
+    const int setSize = /*40;*/  getInstanceSize(file);  // current issue: this shitty file has mutiple spaces between fucking numbers
     int currentSet = 1;
 
     output.resize(setSize);

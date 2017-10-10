@@ -16,6 +16,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+    <Text Include="Input\wt40.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -24,16 +27,16 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Task.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Scheduler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="fileReader.h">
+    <ClInclude Include="Source/fileReader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TestManager.h">
+    <ClInclude Include="Source/Task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source/TestManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -41,22 +44,22 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PEA_scheduling.cpp">
+    <ClCompile Include="Source/fileReader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Task.cpp">
+    <ClCompile Include="Source/PEA_scheduling.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Scheduler.cpp">
+    <ClCompile Include="Source/Scheduler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="fileReader.cpp">
+    <ClCompile Include="Source/Task.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TestManager.cpp">
+    <ClCompile Include="Source/TestManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Tests\fileReaderTest.h">
+    <ClCompile Include="Tests/fileReaderTest.h">
       <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
