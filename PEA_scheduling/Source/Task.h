@@ -1,5 +1,9 @@
 #pragma once
-class Task
+
+#include <string>
+#include <vector>
+
+struct Task
 {
 public:
     Task();
@@ -8,6 +12,8 @@ public:
         weight(pWeight), 
         deadline(pDeadline)
     {};
+
+    std::string toString() const;
 
     ~Task();
     

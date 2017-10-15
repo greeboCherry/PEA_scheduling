@@ -39,6 +39,9 @@
     <ClInclude Include="Source/TestManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\printTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -62,5 +65,11 @@
     <ClCompile Include="Tests/fileReaderTest.h">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="printTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

@@ -4,7 +4,7 @@
 #include <iostream>
 
 #include "fileReader.h"
-
+#include "printTools.h"
 
 class FileReaderTest
 {
@@ -24,8 +24,9 @@ public:
         std::vector<Task> output;
         sut->readWT("Input/wt40.txt", 1, output);
 
-        std::cout << "output.size()" << output.size();
+        std::cout << printTools::toString(output);
 
+        std::cout << "output.size()" << output.size();
 
         return false;
     }
