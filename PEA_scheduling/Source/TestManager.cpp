@@ -1,6 +1,8 @@
 #include "TestManager.h"
 
 #include "fileReaderTest.h"
+#include "fileReader.h"
+#include "BBScheduler.h"
 
 TestManager::TestManager()
 {
@@ -19,5 +21,14 @@ bool TestManager::runAllTests()
     FileReaderTest fileReaderTest;
     fileReaderTest.runTests();
 
+    FileReader fr;
+    std::vector<Task> tasks;
+    fr.readWT("Input/wt40.txt", 1, tasks);
+
+    BBScheduler BBsut(tasks);
+    BBsut.schedule();
+
+
+    int i = tasks.size();
     return result;
 }

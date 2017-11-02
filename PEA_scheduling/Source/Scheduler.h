@@ -12,20 +12,16 @@ This virtual class is supposed to take reference to vector of tasks, and use onl
 class Scheduler
 {
 public:
-    Scheduler(std::vector<Task>& pTasks)
-    {
-        tasksLeft.reserve(pTasks.size());
-        for (auto it = pTasks.begin(); it != pTasks.end(); it++)
-        {
-            Task* ptr = &*it;   //that's how you make pointer from iterator, ffs
-            tasksLeft.push_back(ptr);
-        }
-    };
+    Scheduler(std::vector<Task>& pTasks);
     virtual ~Scheduler();
 
-    //virtual void Schedule();
 
-private:
+    std::pair<int,int> calculateCompletitionTimeAndTardiness(const std::vector<Task*>& tasks, int time);
+    //calculate Tardiness with given order of tasks and initial time(useful when trying to start from the end of time line
+    int calculateTardiness(const std::vector<Task*>& tasks, int startTime = 0);
+    virtual void schedule()=0;
+
+protected:
     int currentTime;
     std::vector<Task*> tasksLeft;   //TODO KOZIEL maybe it can be one vector with border between them? that's what erase is for, right? 
     std::vector<Task*> tasksDone;

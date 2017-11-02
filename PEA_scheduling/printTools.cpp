@@ -11,8 +11,19 @@ std::string printTools::toString(std::vector<Task>& taskView)
     int i = 0;
     for each (auto const &task in taskView)
     {
-        result += "Task " + std::to_string(++i) + ": " + task.toString() + "\t";
+        result += "Task " + std::to_string(++i) + ": " + task.toString() + "\n";
+    }
+    return result;
+}
+std::string printTools::toString(std::vector<Task*> taskView)
+{
+    std::string result;
+    int i = 0;
+    for each (auto const &task in taskView)
+    {
+        result += "Task " + std::to_string(++i) + ": " + task->toString() + "\n";
     }
     return result;
 
 }
+

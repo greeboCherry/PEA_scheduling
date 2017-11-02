@@ -8,5 +8,6 @@
 namespace printTools
 {
     std::string toString(std::vector<Task>& taskView);
+    std::string toString(std::vector<Task*> taskView);
 }
 
