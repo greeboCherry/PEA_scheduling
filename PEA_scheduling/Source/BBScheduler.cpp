@@ -77,6 +77,7 @@ void BBScheduler::schedule()
 void BBScheduler::cutBranches(int &upperBound)
 {
     std::vector<Solution> viableSolutions;
+    viableSolutions.reserve(solutions.size());
     
     //make list of solutions with the lowest tardiness;
     for each (auto& sol in solutions)
@@ -102,7 +103,7 @@ void BBScheduler::branchOutAll()
 {
     
     auto oldSize = solutions.size();
-    solutions.reserve(oldSize*oldSize);
+    solutions.reserve(oldSize*(solutions[0].tasksAvailable.size()+1));
     auto i = 0u;
     for (auto it = solutions.begin(); i < oldSize; it++, i++)
     {
