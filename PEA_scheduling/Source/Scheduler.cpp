@@ -5,6 +5,7 @@
 Scheduler::Scheduler(std::vector<Task>& pTasks)
 {
     tasksLeft.reserve(pTasks.size());
+    taskSet = pTasks;
     for (auto it = pTasks.begin(); it != pTasks.end(); it++)    //todo std::transform here?
     {
         tasksLeft.push_back(&(*it)); //that's how you make pointer from iterator, ffs1

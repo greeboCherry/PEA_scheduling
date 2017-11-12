@@ -10,19 +10,19 @@ class BBScheduler : public Scheduler
 
         std::vector<Task*> tasksDone;
         std::vector<Task*> tasksAvailable;
+
+        
     };
 
 public:
     BBScheduler(std::vector<Task>& pTasks);
     virtual void schedule() override;
-
-    
-
+    int upperBound = 9999;
 protected:
     std::vector<Solution> solutions;
     unsigned branchLevel = 0;
     void branchOutAll();
     void branch(Solution& instance);
-    void cutBranches(int &upperBound);
+    bool cutBranches(int &upperBound);
 };
 

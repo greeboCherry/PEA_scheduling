@@ -23,6 +23,7 @@ public:
 
 protected:
     int currentTime;
+    std::vector<Task> taskSet;
     std::vector<Task*> tasksLeft;   //TODO KOZIEL maybe it can be one vector with border between them? that's what erase is for, right? 
     std::vector<Task*> tasksDone;
 };

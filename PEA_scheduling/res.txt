@@ -1,0 +1,7 @@
+Upper Bound estimated by sth like NAH: 67 after 435.085 ms 
+Weighted tardiness: 67
+Result by BnB - Weighted tardiness: 67 after 1.15783 ms 
+Task 1: Time: 12, Weight: 4, Deadline: 16
+Task 2: Time: 8, Weight: 5, Deadline: 26
+Task 3: Time: 9, Weight: 5, Deadline: 27
+Task 4: Time: 15, Weight: 3, Deadline: 25

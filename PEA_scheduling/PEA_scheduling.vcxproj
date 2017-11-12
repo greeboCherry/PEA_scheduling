@@ -153,6 +153,7 @@
     <Text Include="wt4.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\BBDFSScheduler.h" />
     <ClInclude Include="Source\BBScheduler.h" />
     <ClInclude Include="Source/fileReader.h" />
     <ClInclude Include="Source\printTools.h" />
@@ -161,17 +162,20 @@
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Source/Task.h" />
     <ClInclude Include="Source/TestManager.h" />
+    <ClInclude Include="Source\Timer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\BBDFSScheduler.cpp" />
     <ClCompile Include="Source\BBScheduler.cpp" />
     <ClCompile Include="printTools.cpp" />
     <ClCompile Include="Source/fileReader.cpp" />
-    <ClCompile Include="Source/PEA_scheduling.cpp" />
+    <ClCompile Include="Source\main.cpp" />
     <ClCompile Include="Source/Scheduler.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Source/Task.cpp" />
     <ClCompile Include="Source/TestManager.cpp" />
     <ClCompile Include="Tests/fileReaderTest.h" />
+    <ClCompile Include="Source\Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

@@ -6,12 +6,6 @@
 #include <iterator>
 #include "printTools.h"
 
-namespace
-{
-
-
-
-}
 
 BBScheduler::Solution::Solution(Solution& parentInstance, unsigned taskNumber)
 {
@@ -35,7 +29,7 @@ BBScheduler::BBScheduler(std::vector<Task>& pTasks) : Scheduler(pTasks)
 
 void BBScheduler::schedule()
 {
-    std::cout << "Unsorted Tasks* \n" << printTools::toString(tasksLeft);
+    //std::cout << "Unsorted Tasks* \n" << printTools::toString(tasksLeft);
 
     int taskCount = tasksLeft.size();
 
@@ -45,15 +39,15 @@ void BBScheduler::schedule()
         return left->deadline < right->deadline;
     });
 
-    std::cout << "Sorted Tasks* \n" << printTools::toString(tasksLeft);
+    //std::cout << "Sorted Tasks* \n" << printTools::toString(tasksLeft);
 
-    auto upperBound = calculateTardiness(tasksLeft, 0);
+    upperBound = calculateTardiness(tasksLeft, 0);
 
-    std::cout << "Initial Tardiness: " << calculateTardiness(tasksLeft,0) << " or " << calculateCompletitionTimeAndTardiness(tasksLeft, 0).second << std::endl;
+    //std::cout << "Initial Tardiness: " << calculateTardiness(tasksLeft,0) << " or " << calculateCompletitionTimeAndTardiness(tasksLeft, 0).second << std::endl;
     //initialize initial n Solutions
     Solution gold(taskCount);
     std::copy(tasksLeft.begin(), tasksLeft.end(), std::back_inserter(gold.tasksAvailable));
-    std::cout << "Gold Tardiness: " << calculateTardiness(gold.tasksAvailable, 0) << std::endl;
+    //std::cout << "Gold Tardiness: " << calculateTardiness(gold.tasksAvailable, 0) << std::endl;
     for (unsigned i = 0; i < tasksLeft.size(); i++)
     {
         solutions.emplace_back(gold, i);
@@ -63,19 +57,20 @@ void BBScheduler::schedule()
         auto midTime = temp.first;
         auto thisTar = temp.second;
         thisTar += calculateTardiness(solutions.back().tasksDone, midTime);
-        std::cout << "Initial " << i << "th WT " << thisTar << std::endl;
+        //std::cout << "Initial " << i << "th WT " << thisTar << std::endl;
     }
     for (int i = 1; i < taskCount; i++)
     {
         branchOutAll();
-        cutBranches(upperBound);
+        if(cutBranches(upperBound)) return;
     }
-    std::cout << "Branches atm: " << solutions.size() << " WT = " << calculateTardiness(solutions[0].tasksDone, 0) << std::endl;
-    std::cout << printTools::toString(solutions[0].tasksDone) << std::endl;
+    //std::cout << "Branches atm: " << solutions.size() << " WT = " << calculateTardiness(solutions[0].tasksDone, 0) << std::endl;
+    //std::cout << printTools::toString(solutions[0].tasksDone) << std::endl;
 }
 
-void BBScheduler::cutBranches(int &upperBound)
+bool BBScheduler::cutBranches(int &upperBound)
 {
+    bool last = true;
     std::vector<Solution> viableSolutions;
     viableSolutions.reserve(solutions.size());
     
@@ -92,11 +87,13 @@ void BBScheduler::cutBranches(int &upperBound)
             {
                 viableSolutions.clear();
                 upperBound = thisTar;
+                last = false;
             }
                 viableSolutions.push_back(sol);
         }
     }
     solutions = viableSolutions;
+    return last;
 }
 
 void BBScheduler::branchOutAll()

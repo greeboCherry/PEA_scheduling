@@ -1,0 +1,47 @@
+Upper Bound estimated by sth like NAH: 67 after 370.713 ms 
+Weighted tardiness: 67
+Result by BnB - Weighted tardiness: 67 after 1.12743 ms 
+Task 1: Time: 12, Weight: 4, Deadline: 16
+Task 2: Time: 8, Weight: 5, Deadline: 26
+Task 3: Time: 9, Weight: 5, Deadline: 27
+Task 4: Time: 15, Weight: 3, Deadline: 25
+
+
+Upper Bound estimated by sth like NAH: 1018 after 535.325 ms 
+Upper Bound estimated by sth like NAH: 0 after 110.611 ms 
+Weighted tardiness: 0
+Result by BnB - Weighted tardiness: 0 after 1689.35 ms 
+Task 1: Time: 26, Weight: 1, Deadline: 1588
+Task 2: Time: 24, Weight: 10, Deadline: 1620
+Task 3: Time: 79, Weight: 9, Deadline: 1731
+Task 4: Time: 46, Weight: 10, Deadline: 1773
+Task 5: Time: 32, Weight: 10, Deadline: 1694
+Task 6: Time: 35, Weight: 4, Deadline: 1487
+Task 7: Time: 73, Weight: 3, Deadline: 1566
+Task 8: Time: 74, Weight: 2, Deadline: 1844
+Task 9: Time: 14, Weight: 10, Deadline: 1727
+Task 10: Time: 67, Weight: 3, Deadline: 1636
+Task 11: Time: 86, Weight: 7, Deadline: 1599
+Task 12: Time: 46, Weight: 3, Deadline: 1539
+Task 13: Time: 78, Weight: 1, Deadline: 1855
+Task 14: Time: 40, Weight: 3, Deadline: 1645
+Task 15: Time: 29, Weight: 10, Deadline: 1709
+Upper Bound estimated by sth like NAH: 0 after 256.927 ms 
+Upper Bound estimated by sth like NAH: 407 after 542.981 ms 
+Weighted tardiness: 407
+Result by BnB - Weighted tardiness: 407 after 1.94904e+07 ms 
+Task 1: Time: 24, Weight: 10, Deadline: 532
+Task 2: Time: 79, Weight: 9, Deadline: 622
+Task 3: Time: 46, Weight: 10, Deadline: 438
+Task 4: Time: 32, Weight: 10, Deadline: 560
+Task 5: Time: 35, Weight: 4, Deadline: 423
+Task 6: Time: 73, Weight: 3, Deadline: 437
+Task 7: Time: 14, Weight: 10, Deadline: 609
+Task 8: Time: 78, Weight: 1, Deadline: 429
+Task 9: Time: 67, Weight: 3, Deadline: 495
+Task 10: Time: 29, Weight: 10, Deadline: 519
+Task 11: Time: 86, Weight: 7, Deadline: 575
+Task 12: Time: 40, Weight: 3, Deadline: 605
+Task 13: Time: 46, Weight: 3, Deadline: 647
+Task 14: Time: 26, Weight: 1, Deadline: 550
+Task 15: Time: 74, Weight: 2, Deadline: 611
