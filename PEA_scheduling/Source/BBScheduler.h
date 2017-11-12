@@ -18,6 +18,7 @@ public:
     BBScheduler(std::vector<Task>& pTasks);
     virtual void schedule() override;
     int upperBound = 9999;
+    int fruitlessLevelsLeft = 2;
 protected:
     std::vector<Solution> solutions;
     unsigned branchLevel = 0;

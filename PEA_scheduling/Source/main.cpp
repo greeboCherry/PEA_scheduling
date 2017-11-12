@@ -11,7 +11,7 @@
 #include <fstream>
 #include <iostream>
 #include <string>
-
+#include <iterator>
 #include "fileReader.h"
 
 int main()
@@ -21,7 +21,8 @@ int main()
 
     FileReader fr;
     std::vector<Task> tasks;
-    fr.readWT("Input/wt15.txt", 1, tasks);
+    std::string filename = "Input/wt40.txt";
+    fr.readWT(filename, 1, tasks);
 
     std::ofstream output("output/res.txt", std::ofstream::out | std::ofstream::app);
     Timer timer;
@@ -31,11 +32,23 @@ int main()
     estimator.schedule();
 
     auto time = timer.GetCounter();
+
+    output << "/////////// Opened " << filename << std::endl;
     std::cout << "Upper Bound estimated by sth like NAH: " << estimator.upperBound << " after " << time << " ms " << std::endl;
     output << "Upper Bound estimated by sth like NAH: " << estimator.upperBound << " after " << time << " ms " << std::endl;
+    auto secondPart = estimator.getTasksDone();
+    auto tardinessofFirstPart = estimator.calculateTardiness(estimator.getTasksLeft(), 0);
 
-    BBDFSScheduler sut(tasks);
-    sut.upperBound = estimator.upperBound + 1;
+    std::cout << printTools::toString(secondPart) << std::endl;
+    output << printTools::toString(secondPart) << std::endl;
+
+
+
+    // pass non scheduled tasks to DFS scheduler
+    BBDFSScheduler sut(estimator.getTasksLeft());
+    sut.upperBound = tardinessofFirstPart + 1;
+
+    sut.upperBound = 9999;
 
     timer.StartCounter();
 
@@ -44,15 +57,18 @@ int main()
     time = timer.GetCounter();
 
     std::cout << "Weighted tardiness: " << sut.upperBound << std::endl;
-
     std::cout << "Result by BnB - Weighted tardiness: " << estimator.upperBound << " after " << time << " ms " << std::endl;
-    std::cout << printTools::toString(tasks, sut.bestSoFar);
-
 
     output << "Weighted tardiness: " << sut.upperBound << std::endl;
-
     output << "Result by BnB - Weighted tardiness: " << estimator.upperBound << " after " << time << " ms " << std::endl;
-    output << printTools::toString(tasks, sut.bestSoFar);
+
+    auto finalResult = sut.getTasksDone();
+    auto firstPart = estimator.getTasksDone();
+    std::copy(secondPart.begin(), secondPart.end(), std::back_inserter(finalResult));
+    auto finalTardiness = sut.calculateTardiness(finalResult);
+
+    output << printTools::toString(finalResult);
+    std::cout << printTools::toString(finalResult);
 
     std::cout << "Press enter or sth: ";
     std::cin.get();

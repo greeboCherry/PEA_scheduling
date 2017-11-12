@@ -17,6 +17,12 @@ void BBDFSScheduler::schedule()
     std::vector<int> tasksLeft(taskSet.size());
     std::iota(tasksLeft.begin(), tasksLeft.end(), 0);
     recursive(tasksDone, tasksLeft, 0, 0, 0);
+    tasksDone.reserve(taskSet.size());
+    for each (auto var in bestSoFar)
+    {
+        this->tasksDone.push_back(&(taskSet[var]));
+
+    }
 }
 
 int BBDFSScheduler::calculateDelta(unsigned newTask, std::vector<int>& tasksDone, std::vector<int>& tasksLeft, unsigned timePassed)

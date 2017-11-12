@@ -45,3 +45,557 @@ Task 12: Time: 40, Weight: 3, Deadline: 605
 Task 13: Time: 46, Weight: 3, Deadline: 647
 Task 14: Time: 26, Weight: 1, Deadline: 550
 Task 15: Time: 74, Weight: 2, Deadline: 611
+///////////// HELLO WORK! ////////////
+Upper Bound estimated by sth like NAH: 67 after 1609.79 ms 
+Weighted tardiness: 67
+Result by BnB - Weighted tardiness: 67 after 0.0979 ms 
+Task 1: Time: 12, Weight: 4, Deadline: 16
+Task 2: Time: 8, Weight: 5, Deadline: 26
+Task 3: Time: 9, Weight: 5, Deadline: 27
+Task 4: Time: 15, Weight: 3, Deadline: 25
+///////////// HELLO WORK! ////////////
+Upper Bound estimated by sth like NAH: 67 after 491.503 ms 
+Task 1: Time: 12, Weight: 4, Deadline: 16
+Task 2: Time: 15, Weight: 3, Deadline: 25
+Task 3: Time: 8, Weight: 5, Deadline: 26
+Task 4: Time: 9, Weight: 5, Deadline: 27
+
+Weighted tardiness: 67
+Result by BnB - Weighted tardiness: 67 after 0.159877 ms 
+///////////// HELLO WORK! ////////////
+Upper Bound estimated by sth like NAH: 67 after 444.351 ms 
+Task 1: Time: 12, Weight: 4, Deadline: 16
+Task 2: Time: 15, Weight: 3, Deadline: 25
+Task 3: Time: 8, Weight: 5, Deadline: 26
+Task 4: Time: 9, Weight: 5, Deadline: 27
+
+Weighted tardiness: 67
+Result by BnB - Weighted tardiness: 67 after 0.160667 ms 
+///////////// HELLO WORK! ////////////
+Upper Bound estimated by sth like NAH: 67 after 556.162 ms 
+Task 1: Time: 12, Weight: 4, Deadline: 16
+Task 2: Time: 15, Weight: 3, Deadline: 25
+Task 3: Time: 8, Weight: 5, Deadline: 26
+Task 4: Time: 9, Weight: 5, Deadline: 27
+
+Weighted tardiness: 67
+Result by BnB - Weighted tardiness: 67 after 2.74791 ms 
+///////////// HELLO WORK! ////////////
+Upper Bound estimated by sth like NAH: 67 after 385.126 ms 
+Task 1: Time: 12, Weight: 4, Deadline: 16
+Task 2: Time: 15, Weight: 3, Deadline: 25
+Task 3: Time: 8, Weight: 5, Deadline: 26
+Task 4: Time: 9, Weight: 5, Deadline: 27
+
+Weighted tardiness: 67
+Result by BnB - Weighted tardiness: 67 after 0.885443 ms 
+Task 1: Time: 12, Weight: 4, Deadline: 16
+Task 2: Time: 8, Weight: 5, Deadline: 26
+Task 3: Time: 9, Weight: 5, Deadline: 27
+Task 4: Time: 15, Weight: 3, Deadline: 25
+Task 5: Time: 12, Weight: 4, Deadline: 16
+Task 6: Time: 15, Weight: 3, Deadline: 25
+Task 7: Time: 8, Weight: 5, Deadline: 26
+Task 8: Time: 9, Weight: 5, Deadline: 27
+///////////// HELLO WORK! ////////////
+Upper Bound estimated by sth like NAH: 67 after 742.213 ms 
+Task 1: Time: 12, Weight: 4, Deadline: 16
+Task 2: Time: 15, Weight: 3, Deadline: 25
+Task 3: Time: 8, Weight: 5, Deadline: 26
+Task 4: Time: 9, Weight: 5, Deadline: 27
+
+Weighted tardiness: 67
+Result by BnB - Weighted tardiness: 67 after 1.01927 ms 
+Task 1: Time: 12, Weight: 4, Deadline: 16
+Task 2: Time: 8, Weight: 5, Deadline: 26
+Task 3: Time: 9, Weight: 5, Deadline: 27
+Task 4: Time: 15, Weight: 3, Deadline: 25
+Task 5: Time: 12, Weight: 4, Deadline: 16
+Task 6: Time: 15, Weight: 3, Deadline: 25
+Task 7: Time: 8, Weight: 5, Deadline: 26
+Task 8: Time: 9, Weight: 5, Deadline: 27
+///////////// HELLO WORK! ////////////
+Upper Bound estimated by sth like NAH: 67 after 483.024 ms 
+
+Weighted tardiness: 1
+Result by BnB - Weighted tardiness: 67 after 1.45074 ms 
+///////////// HELLO WORK! ////////////
+Upper Bound estimated by sth like NAH: 67 after 892.908 ms 
+
+Weighted tardiness: 1
+Result by BnB - Weighted tardiness: 67 after 0.33436 ms 
+///////////// HELLO WORK! ////////////
+Upper Bound estimated by sth like NAH: 67 after 738.218 ms 
+
+Weighted tardiness: 1
+Result by BnB - Weighted tardiness: 67 after 0.5799 ms 
+///////////// HELLO WORK! ////////////
+Upper Bound estimated by sth like NAH: 67 after 433.062 ms 
+Task 1: Time: 12, Weight: 4, Deadline: 16
+Task 2: Time: 8, Weight: 5, Deadline: 26
+Task 3: Time: 9, Weight: 5, Deadline: 27
+Task 4: Time: 15, Weight: 3, Deadline: 25
+
+Weighted tardiness: 0
+Result by BnB - Weighted tardiness: 67 after 0.0655299 ms 
+Task 1: Time: 12, Weight: 4, Deadline: 16
+Task 2: Time: 8, Weight: 5, Deadline: 26
+Task 3: Time: 9, Weight: 5, Deadline: 27
+Task 4: Time: 15, Weight: 3, Deadline: 25
+///////////// HELLO WORK! ////////////
+Upper Bound estimated by sth like NAH: 67 after 369.091 ms 
+Task 1: Time: 12, Weight: 4, Deadline: 16
+Task 2: Time: 8, Weight: 5, Deadline: 26
+Task 3: Time: 9, Weight: 5, Deadline: 27
+Task 4: Time: 15, Weight: 3, Deadline: 25
+
+Weighted tardiness: 0
+Result by BnB - Weighted tardiness: 67 after 0.0284226 ms 
+Task 1: Time: 12, Weight: 4, Deadline: 16
+Task 2: Time: 8, Weight: 5, Deadline: 26
+Task 3: Time: 9, Weight: 5, Deadline: 27
+Task 4: Time: 15, Weight: 3, Deadline: 25
+///////////// HELLO WORK! ////////////
+Upper Bound estimated by sth like NAH: 407 after 578.602 ms 
+Task 1: Time: 86, Weight: 7, Deadline: 575
+Task 2: Time: 40, Weight: 3, Deadline: 605
+Task 3: Time: 46, Weight: 3, Deadline: 647
+Task 4: Time: 26, Weight: 1, Deadline: 550
+Task 5: Time: 74, Weight: 2, Deadline: 611
+
+Weighted tardiness: 0
+Result by BnB - Weighted tardiness: 407 after 0.0765831 ms 
+Task 1: Time: 35, Weight: 4, Deadline: 423
+Task 2: Time: 78, Weight: 1, Deadline: 429
+Task 3: Time: 73, Weight: 3, Deadline: 437
+Task 4: Time: 46, Weight: 10, Deadline: 438
+Task 5: Time: 67, Weight: 3, Deadline: 495
+Task 6: Time: 29, Weight: 10, Deadline: 519
+Task 7: Time: 24, Weight: 10, Deadline: 532
+Task 8: Time: 32, Weight: 10, Deadline: 560
+Task 9: Time: 14, Weight: 10, Deadline: 609
+Task 10: Time: 79, Weight: 9, Deadline: 622
+Task 11: Time: 86, Weight: 7, Deadline: 575
+Task 12: Time: 40, Weight: 3, Deadline: 605
+Task 13: Time: 46, Weight: 3, Deadline: 647
+Task 14: Time: 26, Weight: 1, Deadline: 550
+Task 15: Time: 74, Weight: 2, Deadline: 611
+
+///now should be error free //////////////// HELLO WORK! ////////////
+Upper Bound estimated by sth like NAH: 1259 after 1379.78 ms 
+Task 1: Time: 33, Weight: 4, Deadline: 1801
+Task 2: Time: 42, Weight: 6, Deadline: 1821
+Task 3: Time: 52, Weight: 1, Deadline: 1826
+Task 4: Time: 19, Weight: 1, Deadline: 1761
+Task 5: Time: 56, Weight: 1, Deadline: 1687
+Task 6: Time: 66, Weight: 1, Deadline: 1456
+
+Weighted tardiness: 0
+Result by BnB - Weighted tardiness: 1259 after 5166.84 ms 
+Task 1: Time: 67, Weight: 8, Deadline: 1445
+Task 2: Time: 94, Weight: 5, Deadline: 1448
+Task 3: Time: 92, Weight: 6, Deadline: 1452
+Task 4: Time: 35, Weight: 9, Deadline: 1480
+Task 5: Time: 4, Weight: 10, Deadline: 1484
+Task 6: Time: 56, Weight: 2, Deadline: 1502
+Task 7: Time: 28, Weight: 5, Deadline: 1504
+Task 8: Time: 34, Weight: 2, Deadline: 1513
+Task 9: Time: 18, Weight: 5, Deadline: 1516
+Task 10: Time: 85, Weight: 9, Deadline: 1524
+Task 11: Time: 64, Weight: 2, Deadline: 1594
+Task 12: Time: 89, Weight: 3, Deadline: 1611
+Task 13: Time: 80, Weight: 2, Deadline: 1611
+Task 14: Time: 4, Weight: 9, Deadline: 1614
+Task 15: Time: 46, Weight: 8, Deadline: 1615
+Task 16: Time: 70, Weight: 9, Deadline: 1647
+Task 17: Time: 96, Weight: 5, Deadline: 1654
+Task 18: Time: 78, Weight: 2, Deadline: 1658
+Task 19: Time: 32, Weight: 3, Deadline: 1660
+Task 20: Time: 100, Weight: 3, Deadline: 1660
+Task 21: Time: 76, Weight: 9, Deadline: 1663
+Task 22: Time: 4, Weight: 4, Deadline: 1666
+Task 23: Time: 39, Weight: 3, Deadline: 1679
+Task 24: Time: 72, Weight: 4, Deadline: 1685
+Task 25: Time: 36, Weight: 6, Deadline: 1689
+Task 26: Time: 87, Weight: 5, Deadline: 1701
+Task 27: Time: 48, Weight: 2, Deadline: 1704
+Task 28: Time: 18, Weight: 6, Deadline: 1713
+Task 29: Time: 94, Weight: 7, Deadline: 1715
+Task 30: Time: 21, Weight: 4, Deadline: 1722
+Task 31: Time: 25, Weight: 9, Deadline: 1738
+Task 32: Time: 30, Weight: 2, Deadline: 1752
+Task 33: Time: 18, Weight: 10, Deadline: 1759
+Task 34: Time: 31, Weight: 7, Deadline: 1800
+Task 35: Time: 33, Weight: 4, Deadline: 1801
+Task 36: Time: 42, Weight: 6, Deadline: 1821
+Task 37: Time: 52, Weight: 1, Deadline: 1826
+Task 38: Time: 19, Weight: 1, Deadline: 1761
+Task 39: Time: 56, Weight: 1, Deadline: 1687
+Task 40: Time: 66, Weight: 1, Deadline: 1456
+/////////// OpenedL Input/wt15.txt
+Upper Bound estimated by sth like NAH: 407 after 845.771 ms 
+Task 1: Time: 86, Weight: 7, Deadline: 575
+Task 2: Time: 40, Weight: 3, Deadline: 605
+Task 3: Time: 46, Weight: 3, Deadline: 647
+Task 4: Time: 26, Weight: 1, Deadline: 550
+Task 5: Time: 74, Weight: 2, Deadline: 611
+
+/////////// OpenedL Input/wt15.txt
+Upper Bound estimated by sth like NAH: 407 after 1111.9 ms 
+Task 1: Time: 86, Weight: 7, Deadline: 575
+Task 2: Time: 40, Weight: 3, Deadline: 605
+Task 3: Time: 46, Weight: 3, Deadline: 647
+Task 4: Time: 26, Weight: 1, Deadline: 550
+Task 5: Time: 74, Weight: 2, Deadline: 611
+
+/////////// OpenedL Input/wt15.txt
+Upper Bound estimated by sth like NAH: 407 after 621.482 ms 
+Task 1: Time: 86, Weight: 7, Deadline: 575
+Task 2: Time: 40, Weight: 3, Deadline: 605
+Task 3: Time: 46, Weight: 3, Deadline: 647
+Task 4: Time: 26, Weight: 1, Deadline: 550
+Task 5: Time: 74, Weight: 2, Deadline: 611
+
+Weighted tardiness: 0
+Result by BnB - Weighted tardiness: 407 after 2681.64 ms 
+Task 1: Time: 35, Weight: 4, Deadline: 423
+Task 2: Time: 78, Weight: 1, Deadline: 429
+Task 3: Time: 73, Weight: 3, Deadline: 437
+Task 4: Time: 46, Weight: 10, Deadline: 438
+Task 5: Time: 67, Weight: 3, Deadline: 495
+Task 6: Time: 29, Weight: 10, Deadline: 519
+Task 7: Time: 24, Weight: 10, Deadline: 532
+Task 8: Time: 32, Weight: 10, Deadline: 560
+Task 9: Time: 14, Weight: 10, Deadline: 609
+Task 10: Time: 79, Weight: 9, Deadline: 622
+Task 11: Time: 86, Weight: 7, Deadline: 575
+Task 12: Time: 40, Weight: 3, Deadline: 605
+Task 13: Time: 46, Weight: 3, Deadline: 647
+Task 14: Time: 26, Weight: 1, Deadline: 550
+Task 15: Time: 74, Weight: 2, Deadline: 611
+/////////// OpenedL Input/wt40.txt
+Upper Bound estimated by sth like NAH: 930 after 1284.41 ms 
+Task 1: Time: 50, Weight: 3, Deadline: 1814
+Task 2: Time: 27, Weight: 7, Deadline: 1836
+Task 3: Time: 28, Weight: 4, Deadline: 1833
+Task 4: Time: 74, Weight: 2, Deadline: 1844
+Task 5: Time: 49, Weight: 1, Deadline: 1579
+Task 6: Time: 78, Weight: 1, Deadline: 1855
+
+Weighted tardiness: 0
+Result by BnB - Weighted tardiness: 930 after 2187.37 ms 
+Task 1: Time: 9, Weight: 10, Deadline: 1446
+Task 2: Time: 70, Weight: 5, Deadline: 1481
+Task 3: Time: 90, Weight: 4, Deadline: 1484
+Task 4: Time: 35, Weight: 4, Deadline: 1487
+Task 5: Time: 68, Weight: 7, Deadline: 1497
+Task 6: Time: 95, Weight: 5, Deadline: 1509
+Task 7: Time: 52, Weight: 3, Deadline: 1510
+Task 8: Time: 36, Weight: 5, Deadline: 1512
+Task 9: Time: 85, Weight: 9, Deadline: 1522
+Task 10: Time: 12, Weight: 5, Deadline: 1528
+Task 11: Time: 46, Weight: 3, Deadline: 1539
+Task 12: Time: 30, Weight: 7, Deadline: 1541
+Task 13: Time: 55, Weight: 7, Deadline: 1559
+Task 14: Time: 73, Weight: 3, Deadline: 1566
+Task 15: Time: 64, Weight: 7, Deadline: 1582
+Task 16: Time: 26, Weight: 1, Deadline: 1588
+Task 17: Time: 14, Weight: 2, Deadline: 1598
+Task 18: Time: 86, Weight: 7, Deadline: 1599
+Task 19: Time: 24, Weight: 10, Deadline: 1620
+Task 20: Time: 39, Weight: 9, Deadline: 1627
+Task 21: Time: 86, Weight: 4, Deadline: 1628
+Task 22: Time: 67, Weight: 3, Deadline: 1636
+Task 23: Time: 40, Weight: 3, Deadline: 1645
+Task 24: Time: 44, Weight: 7, Deadline: 1650
+Task 25: Time: 78, Weight: 8, Deadline: 1658
+Task 26: Time: 94, Weight: 4, Deadline: 1660
+Task 27: Time: 32, Weight: 10, Deadline: 1694
+Task 28: Time: 29, Weight: 10, Deadline: 1709
+Task 29: Time: 14, Weight: 10, Deadline: 1727
+Task 30: Time: 79, Weight: 9, Deadline: 1731
+Task 31: Time: 35, Weight: 5, Deadline: 1772
+Task 32: Time: 46, Weight: 10, Deadline: 1773
+Task 33: Time: 69, Weight: 4, Deadline: 1795
+Task 34: Time: 37, Weight: 10, Deadline: 1826
+Task 35: Time: 50, Weight: 3, Deadline: 1814
+Task 36: Time: 27, Weight: 7, Deadline: 1836
+Task 37: Time: 28, Weight: 4, Deadline: 1833
+Task 38: Time: 74, Weight: 2, Deadline: 1844
+Task 39: Time: 49, Weight: 1, Deadline: 1579
+Task 40: Time: 78, Weight: 1, Deadline: 1855
+/////////// Opened Input/wt40.txt
+Upper Bound estimated by sth like NAH: 930 after 1306.44 ms 
+Task 1: Time: 27, Weight: 7, Deadline: 1836
+Task 2: Time: 28, Weight: 4, Deadline: 1833
+Task 3: Time: 74, Weight: 2, Deadline: 1844
+Task 4: Time: 49, Weight: 1, Deadline: 1579
+Task 5: Time: 78, Weight: 1, Deadline: 1855
+
+Weighted tardiness: 0
+Result by BnB - Weighted tardiness: 930 after 2235.75 ms 
+Task 1: Time: 9, Weight: 10, Deadline: 1446
+Task 2: Time: 70, Weight: 5, Deadline: 1481
+Task 3: Time: 90, Weight: 4, Deadline: 1484
+Task 4: Time: 35, Weight: 4, Deadline: 1487
+Task 5: Time: 68, Weight: 7, Deadline: 1497
+Task 6: Time: 95, Weight: 5, Deadline: 1509
+Task 7: Time: 52, Weight: 3, Deadline: 1510
+Task 8: Time: 36, Weight: 5, Deadline: 1512
+Task 9: Time: 85, Weight: 9, Deadline: 1522
+Task 10: Time: 12, Weight: 5, Deadline: 1528
+Task 11: Time: 46, Weight: 3, Deadline: 1539
+Task 12: Time: 30, Weight: 7, Deadline: 1541
+Task 13: Time: 55, Weight: 7, Deadline: 1559
+Task 14: Time: 73, Weight: 3, Deadline: 1566
+Task 15: Time: 64, Weight: 7, Deadline: 1582
+Task 16: Time: 26, Weight: 1, Deadline: 1588
+Task 17: Time: 14, Weight: 2, Deadline: 1598
+Task 18: Time: 86, Weight: 7, Deadline: 1599
+Task 19: Time: 24, Weight: 10, Deadline: 1620
+Task 20: Time: 39, Weight: 9, Deadline: 1627
+Task 21: Time: 86, Weight: 4, Deadline: 1628
+Task 22: Time: 67, Weight: 3, Deadline: 1636
+Task 23: Time: 40, Weight: 3, Deadline: 1645
+Task 24: Time: 44, Weight: 7, Deadline: 1650
+Task 25: Time: 78, Weight: 8, Deadline: 1658
+Task 26: Time: 94, Weight: 4, Deadline: 1660
+Task 27: Time: 32, Weight: 10, Deadline: 1694
+Task 28: Time: 29, Weight: 10, Deadline: 1709
+Task 29: Time: 14, Weight: 10, Deadline: 1727
+Task 30: Time: 79, Weight: 9, Deadline: 1731
+Task 31: Time: 35, Weight: 5, Deadline: 1772
+Task 32: Time: 46, Weight: 10, Deadline: 1773
+Task 33: Time: 69, Weight: 4, Deadline: 1795
+Task 34: Time: 50, Weight: 3, Deadline: 1814
+Task 35: Time: 37, Weight: 10, Deadline: 1826
+Task 36: Time: 27, Weight: 7, Deadline: 1836
+Task 37: Time: 28, Weight: 4, Deadline: 1833
+Task 38: Time: 74, Weight: 2, Deadline: 1844
+Task 39: Time: 49, Weight: 1, Deadline: 1579
+Task 40: Time: 78, Weight: 1, Deadline: 1855
+/////////// Opened Input/wt40.txt
+Upper Bound estimated by sth like NAH: 930 after 699.813 ms 
+Task 1: Time: 27, Weight: 7, Deadline: 1836
+Task 2: Time: 28, Weight: 4, Deadline: 1833
+Task 3: Time: 74, Weight: 2, Deadline: 1844
+Task 4: Time: 49, Weight: 1, Deadline: 1579
+Task 5: Time: 78, Weight: 1, Deadline: 1855
+
+Weighted tardiness: 0
+Result by BnB - Weighted tardiness: 930 after 2174.94 ms 
+Task 1: Time: 9, Weight: 10, Deadline: 1446
+Task 2: Time: 70, Weight: 5, Deadline: 1481
+Task 3: Time: 90, Weight: 4, Deadline: 1484
+Task 4: Time: 35, Weight: 4, Deadline: 1487
+Task 5: Time: 68, Weight: 7, Deadline: 1497
+Task 6: Time: 95, Weight: 5, Deadline: 1509
+Task 7: Time: 52, Weight: 3, Deadline: 1510
+Task 8: Time: 36, Weight: 5, Deadline: 1512
+Task 9: Time: 85, Weight: 9, Deadline: 1522
+Task 10: Time: 12, Weight: 5, Deadline: 1528
+Task 11: Time: 46, Weight: 3, Deadline: 1539
+Task 12: Time: 30, Weight: 7, Deadline: 1541
+Task 13: Time: 55, Weight: 7, Deadline: 1559
+Task 14: Time: 73, Weight: 3, Deadline: 1566
+Task 15: Time: 64, Weight: 7, Deadline: 1582
+Task 16: Time: 26, Weight: 1, Deadline: 1588
+Task 17: Time: 14, Weight: 2, Deadline: 1598
+Task 18: Time: 86, Weight: 7, Deadline: 1599
+Task 19: Time: 24, Weight: 10, Deadline: 1620
+Task 20: Time: 39, Weight: 9, Deadline: 1627
+Task 21: Time: 86, Weight: 4, Deadline: 1628
+Task 22: Time: 67, Weight: 3, Deadline: 1636
+Task 23: Time: 40, Weight: 3, Deadline: 1645
+Task 24: Time: 44, Weight: 7, Deadline: 1650
+Task 25: Time: 78, Weight: 8, Deadline: 1658
+Task 26: Time: 94, Weight: 4, Deadline: 1660
+Task 27: Time: 32, Weight: 10, Deadline: 1694
+Task 28: Time: 29, Weight: 10, Deadline: 1709
+Task 29: Time: 14, Weight: 10, Deadline: 1727
+Task 30: Time: 79, Weight: 9, Deadline: 1731
+Task 31: Time: 35, Weight: 5, Deadline: 1772
+Task 32: Time: 46, Weight: 10, Deadline: 1773
+Task 33: Time: 69, Weight: 4, Deadline: 1795
+Task 34: Time: 50, Weight: 3, Deadline: 1814
+Task 35: Time: 37, Weight: 10, Deadline: 1826
+Task 36: Time: 27, Weight: 7, Deadline: 1836
+Task 37: Time: 28, Weight: 4, Deadline: 1833
+Task 38: Time: 74, Weight: 2, Deadline: 1844
+Task 39: Time: 49, Weight: 1, Deadline: 1579
+Task 40: Time: 78, Weight: 1, Deadline: 1855
+/////////// Opened Input/wt50.txt
+Upper Bound estimated by sth like NAH: 0 after 0.801754 ms 
+
+Weighted tardiness: 0
+Result by BnB - Weighted tardiness: 0 after 64.0183 ms 
+/////////// Opened Input/wt50.txt
+Upper Bound estimated by sth like NAH: 2345 after 938.085 ms 
+Task 1: Time: 49, Weight: 3, Deadline: 2455
+Task 2: Time: 44, Weight: 10, Deadline: 2493
+Task 3: Time: 99, Weight: 4, Deadline: 2379
+Task 4: Time: 100, Weight: 2, Deadline: 2168
+Task 5: Time: 79, Weight: 1, Deadline: 2394
+
+Weighted tardiness: 0
+Result by BnB - Weighted tardiness: 2345 after 2785.92 ms 
+Task 1: Time: 61, Weight: 1, Deadline: 1978
+Task 2: Time: 79, Weight: 3, Deadline: 2007
+Task 3: Time: 21, Weight: 8, Deadline: 2032
+Task 4: Time: 38, Weight: 3, Deadline: 2034
+Task 5: Time: 90, Weight: 6, Deadline: 2038
+Task 6: Time: 57, Weight: 8, Deadline: 2045
+Task 7: Time: 72, Weight: 7, Deadline: 2073
+Task 8: Time: 33, Weight: 4, Deadline: 2082
+Task 9: Time: 6, Weight: 10, Deadline: 2082
+Task 10: Time: 28, Weight: 6, Deadline: 2083
+Task 11: Time: 42, Weight: 1, Deadline: 2090
+Task 12: Time: 71, Weight: 3, Deadline: 2091
+Task 13: Time: 44, Weight: 3, Deadline: 2099
+Task 14: Time: 58, Weight: 6, Deadline: 2166
+Task 15: Time: 93, Weight: 6, Deadline: 2172
+Task 16: Time: 14, Weight: 8, Deadline: 2184
+Task 17: Time: 50, Weight: 1, Deadline: 2212
+Task 18: Time: 28, Weight: 3, Deadline: 2222
+Task 19: Time: 56, Weight: 7, Deadline: 2223
+Task 20: Time: 38, Weight: 2, Deadline: 2235
+Task 21: Time: 61, Weight: 3, Deadline: 2259
+Task 22: Time: 81, Weight: 7, Deadline: 2265
+Task 23: Time: 23, Weight: 1, Deadline: 2271
+Task 24: Time: 49, Weight: 5, Deadline: 2283
+Task 25: Time: 26, Weight: 2, Deadline: 2309
+Task 26: Time: 22, Weight: 6, Deadline: 2331
+Task 27: Time: 52, Weight: 5, Deadline: 2356
+Task 28: Time: 67, Weight: 7, Deadline: 2366
+Task 29: Time: 78, Weight: 9, Deadline: 2372
+Task 30: Time: 82, Weight: 8, Deadline: 2382
+Task 31: Time: 87, Weight: 5, Deadline: 2385
+Task 32: Time: 91, Weight: 7, Deadline: 2390
+Task 33: Time: 41, Weight: 9, Deadline: 2406
+Task 34: Time: 72, Weight: 6, Deadline: 2417
+Task 35: Time: 65, Weight: 9, Deadline: 2424
+Task 36: Time: 27, Weight: 7, Deadline: 2437
+Task 37: Time: 37, Weight: 5, Deadline: 2441
+Task 38: Time: 24, Weight: 7, Deadline: 2458
+Task 39: Time: 48, Weight: 7, Deadline: 2459
+Task 40: Time: 64, Weight: 7, Deadline: 2462
+Task 41: Time: 4, Weight: 3, Deadline: 2462
+Task 42: Time: 70, Weight: 10, Deadline: 2473
+Task 43: Time: 64, Weight: 6, Deadline: 2475
+Task 44: Time: 96, Weight: 10, Deadline: 2475
+Task 45: Time: 94, Weight: 10, Deadline: 2488
+Task 46: Time: 49, Weight: 3, Deadline: 2455
+Task 47: Time: 44, Weight: 10, Deadline: 2493
+Task 48: Time: 99, Weight: 4, Deadline: 2379
+Task 49: Time: 100, Weight: 2, Deadline: 2168
+Task 50: Time: 79, Weight: 1, Deadline: 2394
+/////////// Opened Input/wt50.txt
+Upper Bound estimated by sth like NAH: 2345 after 954.624 ms 
+Task 1: Time: 49, Weight: 3, Deadline: 2455
+Task 2: Time: 44, Weight: 10, Deadline: 2493
+Task 3: Time: 99, Weight: 4, Deadline: 2379
+Task 4: Time: 100, Weight: 2, Deadline: 2168
+Task 5: Time: 79, Weight: 1, Deadline: 2394
+
+Weighted tardiness: 0
+Result by BnB - Weighted tardiness: 2345 after 2758.06 ms 
+Task 1: Time: 61, Weight: 1, Deadline: 1978
+Task 2: Time: 79, Weight: 3, Deadline: 2007
+Task 3: Time: 21, Weight: 8, Deadline: 2032
+Task 4: Time: 38, Weight: 3, Deadline: 2034
+Task 5: Time: 90, Weight: 6, Deadline: 2038
+Task 6: Time: 57, Weight: 8, Deadline: 2045
+Task 7: Time: 72, Weight: 7, Deadline: 2073
+Task 8: Time: 33, Weight: 4, Deadline: 2082
+Task 9: Time: 6, Weight: 10, Deadline: 2082
+Task 10: Time: 28, Weight: 6, Deadline: 2083
+Task 11: Time: 42, Weight: 1, Deadline: 2090
+Task 12: Time: 71, Weight: 3, Deadline: 2091
+Task 13: Time: 44, Weight: 3, Deadline: 2099
+Task 14: Time: 58, Weight: 6, Deadline: 2166
+Task 15: Time: 93, Weight: 6, Deadline: 2172
+Task 16: Time: 14, Weight: 8, Deadline: 2184
+Task 17: Time: 50, Weight: 1, Deadline: 2212
+Task 18: Time: 28, Weight: 3, Deadline: 2222
+Task 19: Time: 56, Weight: 7, Deadline: 2223
+Task 20: Time: 38, Weight: 2, Deadline: 2235
+Task 21: Time: 61, Weight: 3, Deadline: 2259
+Task 22: Time: 81, Weight: 7, Deadline: 2265
+Task 23: Time: 23, Weight: 1, Deadline: 2271
+Task 24: Time: 49, Weight: 5, Deadline: 2283
+Task 25: Time: 26, Weight: 2, Deadline: 2309
+Task 26: Time: 22, Weight: 6, Deadline: 2331
+Task 27: Time: 52, Weight: 5, Deadline: 2356
+Task 28: Time: 67, Weight: 7, Deadline: 2366
+Task 29: Time: 78, Weight: 9, Deadline: 2372
+Task 30: Time: 82, Weight: 8, Deadline: 2382
+Task 31: Time: 87, Weight: 5, Deadline: 2385
+Task 32: Time: 91, Weight: 7, Deadline: 2390
+Task 33: Time: 41, Weight: 9, Deadline: 2406
+Task 34: Time: 72, Weight: 6, Deadline: 2417
+Task 35: Time: 65, Weight: 9, Deadline: 2424
+Task 36: Time: 27, Weight: 7, Deadline: 2437
+Task 37: Time: 37, Weight: 5, Deadline: 2441
+Task 38: Time: 24, Weight: 7, Deadline: 2458
+Task 39: Time: 48, Weight: 7, Deadline: 2459
+Task 40: Time: 64, Weight: 7, Deadline: 2462
+Task 41: Time: 4, Weight: 3, Deadline: 2462
+Task 42: Time: 70, Weight: 10, Deadline: 2473
+Task 43: Time: 64, Weight: 6, Deadline: 2475
+Task 44: Time: 96, Weight: 10, Deadline: 2475
+Task 45: Time: 94, Weight: 10, Deadline: 2488
+Task 46: Time: 49, Weight: 3, Deadline: 2455
+Task 47: Time: 44, Weight: 10, Deadline: 2493
+Task 48: Time: 99, Weight: 4, Deadline: 2379
+Task 49: Time: 100, Weight: 2, Deadline: 2168
+Task 50: Time: 79, Weight: 1, Deadline: 2394
+/////////// Opened Input/wt40.txt
+Upper Bound estimated by sth like NAH: 930 after 653.354 ms 
+Task 1: Time: 27, Weight: 7, Deadline: 1836
+Task 2: Time: 28, Weight: 4, Deadline: 1833
+Task 3: Time: 74, Weight: 2, Deadline: 1844
+Task 4: Time: 49, Weight: 1, Deadline: 1579
+Task 5: Time: 78, Weight: 1, Deadline: 1855
+
+Weighted tardiness: 0
+Result by BnB - Weighted tardiness: 930 after 2156.46 ms 
+Task 1: Time: 9, Weight: 10, Deadline: 1446
+Task 2: Time: 70, Weight: 5, Deadline: 1481
+Task 3: Time: 90, Weight: 4, Deadline: 1484
+Task 4: Time: 35, Weight: 4, Deadline: 1487
+Task 5: Time: 68, Weight: 7, Deadline: 1497
+Task 6: Time: 95, Weight: 5, Deadline: 1509
+Task 7: Time: 52, Weight: 3, Deadline: 1510
+Task 8: Time: 36, Weight: 5, Deadline: 1512
+Task 9: Time: 85, Weight: 9, Deadline: 1522
+Task 10: Time: 12, Weight: 5, Deadline: 1528
+Task 11: Time: 46, Weight: 3, Deadline: 1539
+Task 12: Time: 30, Weight: 7, Deadline: 1541
+Task 13: Time: 55, Weight: 7, Deadline: 1559
+Task 14: Time: 73, Weight: 3, Deadline: 1566
+Task 15: Time: 64, Weight: 7, Deadline: 1582
+Task 16: Time: 26, Weight: 1, Deadline: 1588
+Task 17: Time: 14, Weight: 2, Deadline: 1598
+Task 18: Time: 86, Weight: 7, Deadline: 1599
+Task 19: Time: 24, Weight: 10, Deadline: 1620
+Task 20: Time: 39, Weight: 9, Deadline: 1627
+Task 21: Time: 86, Weight: 4, Deadline: 1628
+Task 22: Time: 67, Weight: 3, Deadline: 1636
+Task 23: Time: 40, Weight: 3, Deadline: 1645
+Task 24: Time: 44, Weight: 7, Deadline: 1650
+Task 25: Time: 78, Weight: 8, Deadline: 1658
+Task 26: Time: 94, Weight: 4, Deadline: 1660
+Task 27: Time: 32, Weight: 10, Deadline: 1694
+Task 28: Time: 29, Weight: 10, Deadline: 1709
+Task 29: Time: 14, Weight: 10, Deadline: 1727
+Task 30: Time: 79, Weight: 9, Deadline: 1731
+Task 31: Time: 35, Weight: 5, Deadline: 1772
+Task 32: Time: 46, Weight: 10, Deadline: 1773
+Task 33: Time: 69, Weight: 4, Deadline: 1795
+Task 34: Time: 50, Weight: 3, Deadline: 1814
+Task 35: Time: 37, Weight: 10, Deadline: 1826
+Task 36: Time: 27, Weight: 7, Deadline: 1836
+Task 37: Time: 28, Weight: 4, Deadline: 1833
+Task 38: Time: 74, Weight: 2, Deadline: 1844
+Task 39: Time: 49, Weight: 1, Deadline: 1579
+Task 40: Time: 78, Weight: 1, Deadline: 1855
