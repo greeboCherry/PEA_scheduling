@@ -62,8 +62,21 @@ void BBScheduler::schedule()
     for (int i = 1; i < taskCount; i++)
     {
         branchOutAll();
-        if(cutBranches(upperBound)) return;
+        if(cutBranches(upperBound)) fruitlessLevelsLeft--;
+        if (!fruitlessLevelsLeft)   // if we again did nothing it this iteration, screw this and pass partial solution
+        {
+            break;
+        }
     }
+    if (solutions.size())
+    {
+        tasksDone = solutions[0].tasksDone;
+        tasksLeft = solutions[0].tasksAvailable;
+    }
+    else
+        std::cout << "Strange, no solutions whatsoever ... " << std::endl;
+
+
     //std::cout << "Branches atm: " << solutions.size() << " WT = " << calculateTardiness(solutions[0].tasksDone, 0) << std::endl;
     //std::cout << printTools::toString(solutions[0].tasksDone) << std::endl;
 }

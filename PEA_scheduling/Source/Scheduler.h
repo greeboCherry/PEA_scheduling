@@ -19,7 +19,11 @@ public:
     std::pair<int,int> calculateCompletitionTimeAndTardiness(const std::vector<Task*>& tasks, int time);
     //calculate Tardiness with given order of tasks and initial time(useful when trying to start from the end of time line
     int calculateTardiness(const std::vector<Task*>& tasks, int startTime = 0);
+    int calculateTardiness(const std::vector<Task>& tasks, int startTime = 0);
     virtual void schedule()=0;
+
+    std::vector<Task> getTasksLeft();
+    std::vector<Task> getTasksDone();
 
 protected:
     int currentTime;
