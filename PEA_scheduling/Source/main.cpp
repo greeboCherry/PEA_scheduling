@@ -25,6 +25,8 @@ int main()
     fr.readWT(filename, 1, tasks);
 
     std::ofstream output("output/res.txt", std::ofstream::out | std::ofstream::app);
+    if (!output.is_open())
+        std::cout << "Couldn't open logger file ";
     Timer timer;
     timer.StartCounter();
 
@@ -66,9 +68,9 @@ int main()
     auto firstPart = estimator.getTasksDone();
     std::copy(secondPart.begin(), secondPart.end(), std::back_inserter(finalResult));
     auto finalTardiness = sut.calculateTardiness(finalResult);
-
-    output << printTools::toString(finalResult);
-    std::cout << printTools::toString(finalResult);
+    auto msg = printTools::toString(finalResult);
+    output << msg;
+    std::cout << msg;
 
     std::cout << "Press enter or sth: ";
     std::cin.get();
