@@ -41,7 +41,9 @@ void BBScheduler::schedule()
 
     //std::cout << "Sorted Tasks* \n" << printTools::toString(tasksLeft);
 
-    upperBound = calculateTardiness(tasksLeft, 0);
+    auto temp = calculateCompletitionTimeAndTardiness(tasksLeft, 0);
+    upperBound = temp.second;
+    maxTime = temp.first;
 
     //std::cout << "Initial Tardiness: " << calculateTardiness(tasksLeft,0) << " or " << calculateCompletitionTimeAndTardiness(tasksLeft, 0).second << std::endl;
     //initialize initial n Solutions

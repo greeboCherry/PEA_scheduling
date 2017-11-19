@@ -10,12 +10,13 @@ public:
     BBDFSScheduler(std::vector<Task>& pTasks);
     virtual void schedule() override;
 
-    int lowerbound = 0;
-    int upperBound = 9999;
+    int upperBound = 99999;
+    int maxTime = 99999;
     std::vector<int> bestSoFar;
+    
 protected:
     int calculateDelta(unsigned newTask, std::vector<int>& tasksDone, std::vector<int>& tasksLeft, unsigned timePassed);
-    void recursive(std::vector<int>& tasksDone, std::vector<int>& taksLeft, unsigned backtrace, int weightedTardiness, unsigned timePassed);
+    void recursive(std::vector<int>& tasksDone, std::vector<int>& taksLeft, unsigned backtrace, int weightedTardiness, int timePassed);
 
 };
 

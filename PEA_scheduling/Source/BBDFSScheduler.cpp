@@ -4,6 +4,7 @@
 
 #include <iterator>
 #include <numeric>
+#include <utility>
 
 BBDFSScheduler::BBDFSScheduler(std::vector<Task>& pTasks) : Scheduler(pTasks)
 {
@@ -16,11 +17,11 @@ void BBDFSScheduler::schedule()
     std::vector<int> tasksDone;
     std::vector<int> tasksLeft(taskSet.size());
     std::iota(tasksLeft.begin(), tasksLeft.end(), 0);
-    recursive(tasksDone, tasksLeft, 0, 0, 0);
+    recursive(tasksDone, tasksLeft, 0, 0, this->maxTime);
     tasksDone.reserve(taskSet.size());
     for each (auto var in bestSoFar)
     {
-        this->tasksDone.push_back(&(taskSet[var]));
+        this->tasksDone.insert(this->tasksDone.begin(), &(taskSet[var]));
 
     }
 }
@@ -29,14 +30,14 @@ int BBDFSScheduler::calculateDelta(unsigned newTask, std::vector<int>& tasksDone
 {
     const auto& temp = taskSet[tasksLeft[newTask]]; // that's all because of using indexes instead of pointers, but it's fine, time is short
 
-    timePassed += temp.timeRequired; //it's copy on stack, it's fine
+    //timePassed -= temp.timeRequired; //it's copy on stack, it's fine
     int overdue = timePassed - temp.deadline;
     if (overdue > 0)
         return overdue*temp.weight;
     else return 0;
 }
 
-void BBDFSScheduler::recursive(std::vector<int>& tasksDone, std::vector<int>& tasksLeft, unsigned backtrace, int weightedTardiness, unsigned timePassed)
+void BBDFSScheduler::recursive(std::vector<int>& tasksDone, std::vector<int>& taksLeft, unsigned backtrace, int weightedTardiness, int timePassed)
 {
             // if it's leaf
     if (tasksDone.size() == taskSet.size())
@@ -49,33 +50,36 @@ void BBDFSScheduler::recursive(std::vector<int>& tasksDone, std::vector<int>& ta
     }
     else    // if it's not
     {
-        for (auto i = 0u; i < tasksLeft.size(); i++)
+        for (auto i = 0u; i < taksLeft.size(); i++)
         {
-            int deltaTardiness = calculateDelta(i, tasksDone, tasksLeft, timePassed);
-            int deltaTime = taskSet[tasksLeft[i]].timeRequired;
+            int deltaTardiness = calculateDelta(i, tasksDone, taksLeft, timePassed);
+            int deltaTime = taskSet[taksLeft[i]].timeRequired;
 
             weightedTardiness += deltaTardiness;
-            timePassed += deltaTime;
+            timePassed -= deltaTime;
+
+            
 
             if (weightedTardiness < upperBound)
             {
-                tasksDone.push_back(tasksLeft[i]);
-                tasksLeft.erase(tasksLeft.begin() + i);
-    //DEBUG LOG
-              /* std::copy(tasksDone.begin(), tasksDone.end(),
+                tasksDone.push_back(taksLeft[i]);
+                taksLeft.erase(taksLeft.begin() + i);
+              
+                //DEBUG LOG
+            /*    std::copy(tasksDone.begin(), tasksDone.end(),
                     std::ostream_iterator<int>(std::cout, ", "));
                 std::cout << ": " << weightedTardiness << std::endl;*/
 
-                recursive(tasksDone, tasksLeft, i, weightedTardiness, timePassed);
+                recursive(tasksDone, taksLeft, i, weightedTardiness, timePassed);
             }
         
         weightedTardiness -= deltaTardiness;
-        timePassed -= deltaTime;
+        timePassed += deltaTime;
         }
     }
     if(tasksDone.size())
     {
-        tasksLeft.insert(tasksLeft.begin() + backtrace, tasksDone.back());
+        taksLeft.insert(taksLeft.begin() + backtrace, tasksDone.back());
         tasksDone.pop_back();
     }
     
