@@ -42,6 +42,7 @@ int main()
 
     timer.StartCounter();
     BBScheduler estimator(tasks); //that's just to calculate uppper bound, estimator estimates!
+    //estimator.fruitlessLevelsLeft = 20;
     estimator.schedule();
 
     auto time = timer.GetCounter();
