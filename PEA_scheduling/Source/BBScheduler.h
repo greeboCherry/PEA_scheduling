@@ -10,14 +10,13 @@ class BBScheduler : public Scheduler
 
         std::vector<Task*> tasksDone;
         std::vector<Task*> tasksAvailable;
-
-        
     };
 
 public:
     BBScheduler(std::vector<Task>& pTasks);
     virtual void schedule() override;
-    int upperBound = 9999;
+    int upperBound = 999999;
+    int maxTime;
     int fruitlessLevelsLeft = 2;
 protected:
     std::vector<Solution> solutions;
